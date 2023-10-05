@@ -1,4 +1,4 @@
-AM_CFLAGS = -Werror
+AM_CFLAGS = 
 AM_CFLAGS += -Wall
 AM_CFLAGS += -g -O3
 

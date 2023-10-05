@@ -13,7 +13,7 @@ libmm-vidc-def += -D__alignx\(x\)=__attribute__\(\(__aligned__\(x\)\)\)
 libmm-vidc-def += -DT_ARM
 libmm-vidc-def += -Dinline=__inline
 libmm-vidc-def += -D_ANDROID_
-libmm-vidc-def += -Werror
+libmm-vidc-def += 
 libmm-vidc-def += -D_ANDROID_ICS_
 
 # ---------------------------------------------------------------------------------

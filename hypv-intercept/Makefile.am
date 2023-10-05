@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 AM_CFLAGS = -g -O3
-AM_CFLAGS += -Werror
+AM_CFLAGS += 
 
 AM_CPPFLAGS = -D_ANDROID_
 AM_CPPFLAGS += -DHAVE_ANDROID_OS

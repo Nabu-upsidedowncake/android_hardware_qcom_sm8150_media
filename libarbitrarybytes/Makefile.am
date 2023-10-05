@@ -1,5 +1,5 @@
-AM_CFLAGS = -Werror
-AM_CPPFLAGS = -Werror
+AM_CFLAGS = 
+AM_CPPFLAGS = 
 AM_CPPFLAGS += -D_ENABLE_QC_MSG_LOG_
 AM_CPPFLAGS += -I$(top_srcdir)/mm-core/inc/
 AM_CPPFLAGS += -I$(top_srcdir)/mm-video-v4l2/vidc/common/inc/

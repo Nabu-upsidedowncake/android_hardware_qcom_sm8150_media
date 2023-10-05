@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
-libarbitrarybytes-def := -Werror
+libarbitrarybytes-def := 
 libarbitrarybytes-def += -D_ANDROID_
 
 libarbitrarybytes-inc  := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include

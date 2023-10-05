@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 
 libplatformconfig-def := \
       -g0 -O3 -fpic \
-      -Wno-deprecated-declarations -Werror \
+      -Wno-deprecated-declarations  \
         -Wno-error=unused-variable \
         -w -Wall -Wextra\
     -fexceptions \

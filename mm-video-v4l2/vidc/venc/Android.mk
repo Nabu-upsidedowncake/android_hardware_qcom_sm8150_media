@@ -18,7 +18,7 @@ libmm-venc-def += -DENABLE_DEBUG_ERROR
 libmm-venc-def += -UINPUT_BUFFER_LOG
 libmm-venc-def += -UOUTPUT_BUFFER_LOG
 libmm-venc-def += -USINGLE_ENCODER_INSTANCE
-libmm-venc-def += -Werror
+libmm-venc-def += 
 libmm-venc-def += -D_ANDROID_ICS_
 
 TARGETS_THAT_USE_FLAG_MSM8226 := msm8226 msm8916 msm8909
